@@ -114,3 +114,8 @@ header {
     text-align: center;
     color: #a3000d;
 }
+.slideArea {
+    width: 1920px;
+    height: 480px;
+    background: red;
+}
