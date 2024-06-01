@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.contain {
+
+}
+header {
+    width: 100%;
+    height: 75px;
+}
+nav {
+    width: 1140px;
+    height: 100%;
+    margin: 0 381.5px;
+    display: flex;
+}
+.logo {
+    width: 227.66px;
+    height: 75px;
+}
+.logoCon {
+    width: 227.656px;
+    height: 75px;
+    padding: 10px;
+    position: relative;
+}
+.logoArea {
+    width: 207.656px;
+    height: 39.375px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.logoArea > img {
+    width: 140px;
+    height: 33px;
+}
+.menuCon {
+    width: 913px;
+    height: 75px;
+    background: pink;
+}
+.menuArea {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: red;
+}
+.menu {
+    width: 100%;
+    height: 100%;
+    background: pink;
+    display: flex;
+    justify-content: end;
+}
+.menu > li {
+    width: 11%;
+    padding: 15px;
+    background: orange;
+}
