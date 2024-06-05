@@ -62,39 +62,81 @@ header {
     height: 55px;
     display: flex;
     justify-content: end;
-    font-size: 1.1em;
 }
 .menu_one {
     width: 99.734px;
     height: 100%;
     margin-right: 10px;
     text-align: center;
+    display: flex;
+    position: relative;
+}
+.menu_one > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: #222;
+    font-weight: 500;
+}
+.menu_one i {
+    position: absolute;
+    right: 0;
     line-height: 55px;
+    font-size: 10px;
 }
 .menu_two {
     width: 97.578px;
     height: 100%;
     margin: 0 10px;
     text-align: center;
-    line-height: 55px;
+}
+.menu_two > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: #222;
+    font-weight: 500;
 }
 .menu_three {
     width: 108.969px;
     height: 100%;
     margin: 0 10px;
     text-align: center;
-    line-height: 55px;
+}
+.menu_three > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: #222;
+    font-weight: 500;
 }
 .menu_four {
     width: 90.141px;
     height: 100%;
     margin: 0 10px;
     text-align: center;
-    line-height: 55px;
+}
+.menu_four > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: #222;
+    font-weight: 500;
 }
 .menu_five {
     width: 90.875px;
     height: 100%;
     margin-left: 10px;
-    line-height: 55px;
+}
+.menu_five > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: #222;
+    font-weight: 500;
 }
