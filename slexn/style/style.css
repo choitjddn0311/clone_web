@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 75px;
+}
+.h_contain {
+    width: 1140px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+}
+.logo_area {
+    width: 227.656px;
+    height: 75px;
+}
+.logo_contain {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    padding-left: 2px;
+    align-items: center;
+}
+.logo {
+    width: 207.656px;
+    height: 39.375px;
+    
+}
+.logo_img_con {
+    width: 140px;
+    height: 33.375px;
+}
+.logo_img {
+    width: 100%;
+    height: 100%;
+}
+.logo_img > img {
+    width: 100%;
+    height: 100%;
+}
+.menu_area {
+    width: 908.516px;
+    height: 75px;
+}
+.menu_contain {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.menu_wrap {
+    width: 888.516px;
+    height: 55px;
+    display: flex;
+    justify-content: end;
+    font-size: 1.1em;
+}
+.menu_one {
+    width: 99.734px;
+    height: 100%;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 55px;
+}
+.menu_two {
+    width: 97.578px;
+    height: 100%;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 55px;
+}
+.menu_three {
+    width: 108.969px;
+    height: 100%;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 55px;
+}
+.menu_four {
+    width: 90.141px;
+    height: 100%;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 55px;
+}
+.menu_five {
+    width: 90.875px;
+    height: 100%;
+    margin-left: 10px;
+    line-height: 55px;
+}
