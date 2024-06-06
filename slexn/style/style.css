@@ -65,6 +65,10 @@ header {
     display: flex;
     justify-content: end;
 }
+.menu_wrap > li > a:hover {
+    text-decoration: underline 1px #222;
+    text-underline-offset: 7px;
+}
 .menu_one {
     width: 99.734px;
     height: 100%;
