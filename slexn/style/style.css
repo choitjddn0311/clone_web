@@ -91,6 +91,34 @@ header {
     line-height: 55px;
     font-size: 10px;
 }
+.menu_one ul {
+    position: absolute;
+    width: 180px;
+    height: 318px;
+    top: 55px;
+    background: #fff;
+    box-shadow: 0 0 2px #aaa;
+}
+.menu_one ul > li {
+    width: 100%;
+    height: 53px;
+    padding: 16px;
+    text-align: start;
+    font-size: 14px;
+}
+.menu_one ul > li:hover {
+    background: #eee;
+}
+.menu_one ul > li > a {
+    color: #222;
+}
+.menu_one ul > li:nth-child(5) ,
+.menu_one ul > li:nth-child(6) {
+    font-size: 13px;
+}
+#subMenu {
+    display: none;
+}
 .menu_two {
     width: 97.578px;
     height: 100%;
