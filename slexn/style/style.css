@@ -181,11 +181,10 @@ header {
 .ALM_area {
     width: 100%;
     height: 1064.810px;
-    background: red;
     display: flex;
 }
 .aboutALM {
-    width: 532.266px;
+    width: 532.83px;
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -227,7 +226,7 @@ header {
     transition: 0.5s;
 }
 .ALMnews {
-    width: 684.36px;
+    width: 685.08px;
     height: 1064.810px;
     padding: 120px 40px;
     background: #dce8fc;
@@ -258,7 +257,7 @@ header {
     border-radius: 20px;
 }
 .ALMproduct {
-    width: 684.36px;
+    width: 685.08px;
     height: 1064.810px;
     padding: 120px 40px;
     background: #cedef7;
