@@ -17,6 +17,7 @@ header {
     position: absolute;
     z-index: 10000;
     background: #fff;
+    box-shadow: 0 0 10px #eee;
 }
 .h_contain {
     width: 1140px;
@@ -184,7 +185,7 @@ header {
     display: flex;
 }
 .aboutALM {
-    width: 515.469px;
+    width: 532.266px;
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -226,13 +227,13 @@ header {
     transition: 0.5s;
 }
 .ALMnews {
-    width: 662.75px;
+    width: 684.36px;
     height: 1064.810px;
     padding: 120px 40px;
     background: #dce8fc;
 }
 .news_contain {
-    width: 582.750px;
+    width: 604.36px;
     height: 752.812px;
 }
 .news_inner {
@@ -257,13 +258,13 @@ header {
     border-radius: 20px;
 }
 .ALMproduct {
-    width: 662.75px;
+    width: 684.36px;
     height: 1064.810px;
     padding: 120px 40px;
     background: #cedef7;
 }
 .product_contain {
-    width: 582.750px;
+    width: 604.36px;
     height: 742.328px;
 }
 .product_inner {
