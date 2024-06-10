@@ -261,6 +261,12 @@ header {
 .news1_title_area {
     width: 100%;
     height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.news1_title_area i {
+    font-size: 25px;
+    color: #1c4f94;
 }
 .n1_title_contain {
     width: 66.391px;
@@ -296,12 +302,46 @@ header {
     background-size: cover;
     border-radius: 20px;
 }
+.n1_text {
+    width: 564px;
+    height: 73px;
+}
+.n1_text_inner {
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+}
+.n1_text_inner > p {
+    line-height: 23px;
+}
 .news2 {
     width: 100%;
     height: 227px;
     padding: 0 20px;
     background: #ffffff7a;
     border-radius: 20px;
+}
+.news2_inner {
+    width: 565.08px;
+    height: 227px;
+    padding: 40px 0;
+}
+.n2_text {
+    width: 564px;
+    height: 99px;
+}
+.n2_text > h2 {
+    font-size: 21px;
+    font-weight: 700;
+}
+.n2_text a {
+    font-size: 20px;
+    color: #333;
+}
+.n2_text_contents {
+    width: 564px;
+    height: 63px;
+    padding-top: 25px;
 }
 .ALMproduct {
     width: 685.08px;
