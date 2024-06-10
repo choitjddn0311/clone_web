@@ -301,6 +301,12 @@ header {
     height: 100%;
     background-size: cover;
     border-radius: 20px;
+    transition: 0.5s;
+}
+.n1_main_img img:hover {
+    filter: grayscale(50%);
+    transition: 0.5s;
+    cursor: pointer;
 }
 .n1_text {
     width: 564px;
