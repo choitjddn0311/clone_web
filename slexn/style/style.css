@@ -378,6 +378,9 @@ header {
     height: 1064.810px;
     padding: 120px 40px;
     background: #cedef7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .product_contain {
     width: 604.36px;
@@ -463,4 +466,28 @@ header {
 .con_sw > img {
     width: 160.797px;
     height: 69.594px;
+}
+.product_text {
+    width: 605.078px;
+    height: 24px;
+}
+.product_text_inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.product_text_inner i {
+    font-size: 13px;
+}
+.product_bar {
+    width: 381.516px;
+    height: 1px;
+    padding: 10px 0;
+}
+.product_bar > span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000;
 }
