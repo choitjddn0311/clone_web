@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 72px;
+    background: red;
+}
+.headerInner {
+    height: 34px;
+    width: 1296px;
+    padding: 19px 0;
+    margin: 0 auto;
+    background: aliceblue;
+}
+.headerTitle {
+    width: 107px;
+    height: 100%;
+}
+.titleLink {
+    width: 107px;
+    height: 24px;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+.titleLink > img {
+    width: 100%;
+    height: 100%;
+}
