@@ -6,7 +6,7 @@
 아쉽다 연습해야지
 
 <ol>
-  <li>scss 공부하기</li>
+  <li>scss,tailwind css 공부하기</li>
   <li>react 공부하기</li>
   <li>다양한 프레임워크 및 라이브러리 공부하기</li>
 </ol>
